@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="./styles/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- font-awesome -->
+    <link href="./assets/css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      
+      
+      <div class="alert"></div>
+      <div class="card score d-grid gap-2 col-6 mx-auto">
+          <!-- <div class="card-header "><h4>SCORE</h4></div> -->
+          <div class="card-body">
+            <!-- <div class="human-score"></div> 
+            <div class="computer-score"></div>  -->
+            <div class="final-score"></div> 
+            <div class="final-alert success"></div>
+         </div>
+      </div>
+      <div class="cards-container">
+        <div class="card d-grid gap-2 col-6 mx-auto">
+          <div class="card-header">
+            <h4>YOU</h4>
+            <div class="human-score"></div> 
+          </div>
+          <div class="card-body">
+            <div class="human-options">
+              <button type="button" class="option" data-id="paper">
+                <i class="fa-solid fa-note-sticky"></i>
+              </button>
+              <button type="button" class="option" data-id="rock">
+                <i class="fa-solid fa-gem"></i>
+              </button>
+              <button type="button" class="option" data-id="scissor">
+                <i class="fa-solid fa-scissors"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card d-grid gap-2 col-6 mx-auto">
+          <div class="card-header">
+            <h4>COMPUTER</h4>
+          <div class="computer-score"></div> 
+        </div>
+          <div class="card-body">
+            <div class="computer-options">
+              <button type="button" class="option" dataset-id="paper">
+                <i class="fa-solid fa-note-sticky"></i>
+              </button>
+              <button type="button" class="option" dataset-id="rock">
+                <i class="fa-solid fa-gem"></i>
+              </button>
+              <button type="button" class="option" dataset-id="scissor">
+                <i class="fa-solid fa-scissors"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-3 mx-auto">
+        <button type="button" class="play-btn btn btn-success">Play</button>
+      </div>
+      
+      
+    
+    <script src="index.js"></script>
+
+    <script src="./styles/js/bootstrap.min.js"></script>
+  </body>
+</html>
